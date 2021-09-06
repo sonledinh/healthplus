@@ -887,7 +887,7 @@ section {
             content: ",";
         }
     }
-}
+} 
 
 .author-detail {
     font-weight: 600;
@@ -897,6 +897,7 @@ section {
 .detail {
     position: relative;
     padding: 0 20px 25px 20px;
+    margin: 0;
     &:After {
         content: "";
         width: 8px;

@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" title="" href="css/slick.min.css">
     <link rel="stylesheet" type="text/css" title="" href="css/slick-theme.min.css">
     <link rel="stylesheet" type="text/css" title="" href="css/jquery.mmenu.all.css"> 
+    <link rel="stylesheet" type="text/css" title="" href="css/healthplus.css">
     <link rel="stylesheet" type="text/css" title="" href="css/style.css">
     <link rel="stylesheet" type="text/css" title="" href="css/responsive.css">
 
