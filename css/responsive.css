@@ -420,6 +420,21 @@
 	.content-fter ul {
 	    font-size: 14px;
 	}
+	.ctn-title {
+	    display: block;
+	}
+
+	.tab-other-news {
+	    background: #fff;
+	    padding: 10px 0;
+	    border-radius: 20px 0 0 0;
+	    border-top: 1px solid #dbdbdb;
+	}
+
+	.slide-other-news .slick-arrow {
+	    font-size: 30px;
+	    top: -53px;
+	}
 }
 @media (max-width:  575px) {
 	.item-other-new {
@@ -429,6 +444,9 @@
 	.item-other-new .avarta {
 	    flex: 0 0 45%;
 	    margin-right: 10px;
+	}
+	.thumb-nav {
+	    padding: 15px;
 	}
 
 }
@@ -599,3 +617,13 @@
 	    display: block;
 	}
 }
+/*@media (max-width: 1599px) and (min-width:  1440px) {
+	body .container {
+	    max-width: 1000px;
+	}
+
+	.side-bar-left {
+	    margin-left: 89px;
+	    flex: 0 0 130px;
+	} 
+}*/

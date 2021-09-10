@@ -1,0 +1,150 @@
+
+.chuyende-video {
+	margin-bottom: 20px;
+    justify-content: space-between;	
+    position: relative;
+    padding-bottom: 20px;
+    &:after {
+    	background: linear-gradient(to right, #1bad53, #fff);
+	    content: "";
+	    width: 100%;
+	    height: 1px;
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+    }
+    &:before {
+    	content: "";
+	    width: 8px;
+	    height: 8px;
+	    background: #1bad53;
+	    border-radius: 100%;
+	    position: absolute;
+	    bottom: -3px;
+	    left: 0;
+    }
+    .readmore {
+    	a {
+    		display: inline-flex;
+		    background: #257832;
+		    border-radius: 30px;
+		    color: #fff;
+		    padding: 3px 20px;
+		    border: 1px solid #257832;
+    		&:after {
+    			display: none;
+    		}
+    		&:hover {
+    			color: #257832;
+    			background: #fff;
+    		}
+    	}
+    }
+}
+
+.ctn-title {
+	display: flex;
+    align-items: center;
+}
+.tab-other-news {
+	padding-left: 20px;
+	ul {
+		display: flex;
+	    align-items: center;
+	    list-style: none;
+	    margin-bottom: 0;
+	    li {
+	    	position: relative;
+	    	padding-right: 15px;
+	    	margin-right: 15px;
+	    	&:last-child {
+	    		padding-right: 0;
+	    		margin-right: 0;
+	    		&:after {
+	    			display: none;
+	    		}
+	    	}
+	    	&:after {
+	    		content: "|";
+	    		position: absolute;
+	    		top: 0;
+	    		right: 0;
+	    	}
+	    }
+	}
+	a {
+		font-weight: 600;
+		text-transform: uppercase;
+		font-size: 15px;
+		&:hover, &.active {
+			color: #0f8a44;
+		}
+	}
+}
+
+.slide-other-news {
+	margin: 0 -10px;
+	.item-slide {
+		padding: 0 10px;
+	}
+	.slick-arrow {
+		color: #0f8a44;
+	    font-size: 40px;
+	    display: flex;
+	    align-items: center;
+	    line-height: 1;
+	    top: -65px;
+	    &.next {
+	    	right: -10px;
+	    }
+	    &.prev {
+	    	left: unset;
+    		right: 20px;
+	    }
+	}
+}
+.content-other-news {
+	position: relative;
+}
+
+.content-tab {
+	opacity: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	pointer-events: none;
+	&.active {
+		position: relative;
+		opacity: 1;
+		pointer-events: unset;
+	}
+}
+
+.slider-for {
+	background: #E0E3E9;
+    padding: 15px;
+    .slick-arrow {
+    	padding: 0;
+    	background: transparent;
+    	&.next {
+    		right: 0;
+    	}
+    	&.prev {
+    		left: 0;
+    	}
+    }
+}
+
+.slider-nav {
+	margin: 0 -7px;
+	.clc {
+		padding: 0 7px;
+	}
+}
+
+.thumb-nav {
+	padding: 20px 40px;
+    background: #257832;
+    border-radius: 0 0 10px 10px;
+}
